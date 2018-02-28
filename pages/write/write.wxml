@@ -1,0 +1,8 @@
+<!--write.wxml-->
+<!--写日记页面-->
+<view class="container">
+  <view class='note'>
+  <text>此处有日记</text>
+  </view>
+  
+</view>

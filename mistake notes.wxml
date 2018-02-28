@@ -1,0 +1,20 @@
+ //有一种代码叫边写边吐槽，写完还是得删的，删了又舍不得的，鸡肋码T^T
+ //迷之设定之除了主界面其余子界面一律不显示tabBar。。坑爹啊
+  <!-- "tabBar": {
+    "color": " #303030",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/edit2.png",
+        "iconPath": "/images/edit.png",
+        "pagePath": "pages/index/index",
+        "text": "编辑"
+      },
+      {
+        "selectedIconPath": "images/add2.png",
+        "iconPath": "/images/add.png",
+        "pagePath": "pages/write/write",
+        "text": "添加"
+      }
+    ]
+  } -->

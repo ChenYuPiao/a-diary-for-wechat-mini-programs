@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='logo'>
+  <text class='logo-text'>日迹由己</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="gobutton">
+  <button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="true"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover" style='border-color: #aaa;' bindtap='onBtnClick'><text class="write"> 记 </text></button>
+  </view>
+</view>
